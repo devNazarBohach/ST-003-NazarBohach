@@ -26,17 +26,17 @@ dao: "sthdf"
 title: "about me"
 
 # Krátky popis – dopĺňa používateľ (voliteľné)
-description: "{{DESCRIPTION}}"
+description: "Who I am, what I am interested in and what I bring to the STHDF course and the HackLock team."
 
 
 # 👥 AUTHORSHIP ------------------------------------------------------
 
 # Hlavný autor – z globálneho configu
-author: "Roman Kazicka"
+author: "Nazar Bohach"
 
 # Zoznam autorov – generuje skript
 authors:
-  - "Roman Kazicka"
+  - "Nazar Bohach"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
@@ -56,7 +56,7 @@ priority: ""
 #   - účel: tutorial, guide, pattern, case-study
 #   - téma: git, backup, ai, communication
 #   - úroveň: beginner, intermediate, advanced
-tags: []
+tags: [about-me, sthdf, hardware-security, embedded]
 
 
 # 🌍 LOCALIZATION -----------------------------------------------------
@@ -71,10 +71,10 @@ locale: "sk"
 created: "2026-10-05 18:28"
 
 # Dátum poslednej úpravy – dopĺňa človek
-modified: "2026-10-05 18:28"
+modified: "2026-10-19 15:00"
 
 # Stav dokumentu – default "backlog"
-status: "backlog"
+status: "in-progress"
 
 # Viditeľnosť – default "public"
 privacy: "public"
@@ -83,7 +83,7 @@ privacy: "public"
 # ⚖ INTELLECTUAL PROPERTY -------------------------------------------
 
 # Držiteľ práv k obsahu – dopĺňa skript
-rights_holder_content: "Roman Kazicka"
+rights_holder_content: "Nazar Bohach"
 
 # Systémový vlastník práv
 rights_holder_system: "CAA / KNIFE / LetItGrow"
@@ -95,7 +95,7 @@ license: "CC-BY-NC-SA-4.0"
 disclaimer: "Use at your own risk. Methods provided as-is; participation is voluntary and context-aware."
 
 # Copyright
-copyright: "© 2025 Roman Kazicka"
+copyright: "© 2026 Nazar Bohach"
 
 
 # 🔗 ORIGIN / PROVENANCE ---------------------------------------------
@@ -135,25 +135,50 @@ fm_reserved2: ""
 
 # 🙋 About Me
 
-## 🔖 Základné informácie
-- Meno a priezvisko
-- Študentský GitHub profil (link)
-- Kontaktný e-mail
+## 🔖 Basic information
 
-## 🎯 Profesijné záujmy
-- Oblasti, ktoré ma bavia (IT, dizajn, podnikanie, …)
-- Aké skúsenosti by som chcel získať
+| | |
+|---|---|
+| **Name** | Nazar Bohach |
+| **Student ID** | ST-003 |
+| **Study** | Master's programme, STU FIIT Bratislava (1st year) |
+| **GitHub** | [devNazarBohach](https://github.com/devNazarBohach) |
+| **E-mail** | bohachnazar@gmail.com |
+| **Languages** | Ukrainian, Slovak, English |
 
-## 💡 Moje hobby / záujmy
-- Šport, hudba, varenie, cestovanie …
-- Čokoľvek, čo odhaľuje „ľudskú stránku"
+## 🎯 Professional interests
 
-## 🚀 Očakávania od predmetu
-- Čo chcem dosiahnuť v rámci kurzu
-- Čo očakávam od spolupráce s tímom a komunitou
+I am interested in the place where software meets physical hardware, and in what happens when that boundary is attacked.
 
-## 🚀 Čo viem ponúknuť
-- Čo chcem ponúknuť v rámci kurzu
+- **Hardware security**: side-channel analysis (timing, power) and fault injection attacks on embedded devices
+- **Embedded systems**: microcontrollers, firmware in C, working close to the metal
+- **Databases and backend**: PostgreSQL, Python, Docker
 
-## Navigácia
-- [↩️ Späť](../index.md)
+What I want to gain: hands-on experience turning a security concept into a working physical prototype, and practice in documenting a project well enough that someone else can rebuild it.
+
+## 💡 Hobbies / interests
+
+- Tinkering with hardware and building small devices
+- Side projects with an entrepreneurial angle
+- Anime and AI-generated video
+
+## 🚀 Expectations from the course
+
+- Take an idea from a sketch to a real, working object using the SMARTLAB tools (3D printing, laser cutting, parametric design)
+- Learn to work in a structured way (7Ds, SDLC) instead of "coding until it works"
+- Work in a team where everyone owns a clear part and progress is visible every week
+
+## 🧰 What I can offer
+
+- **Embedded C and firmware** for ESP32 / Arduino-class boards
+- **Security background**: I know how timing and side-channel attacks work and how to defend against them, which is the core of our project HackLock
+- **Python** for tooling, data collection and analysis (attack scripts, measurements, plots)
+- **Git / Docker** basics for keeping the team's work reproducible
+
+## 🔗 My project
+
+- **HackLock**: an educational keypad lock that can be broken by a timing attack, and then fixed. See [Project Summary](../project-summary/index.md).
+- Team repository: [shot0071/brake-password](https://github.com/shot0071/brake-password)
+
+## Navigation
+- [↩️ Back](../index.md)
