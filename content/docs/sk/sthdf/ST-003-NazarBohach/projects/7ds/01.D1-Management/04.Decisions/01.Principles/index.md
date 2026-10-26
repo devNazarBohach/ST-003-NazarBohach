@@ -37,6 +37,8 @@ author: "Nazar Bohach"
 # Zoznam autorov – generuje skript
 authors:
   - "Nazar Bohach"
+  - "Mykola Malesh"
+  - "Viktor Hutsuliak"
 
 
 # 🗂 CLASSIFICATION ---------------------------------------------------
